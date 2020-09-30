@@ -3,7 +3,9 @@ export const initialState = {
     user: null,
     playlist: [],
     playing: false,
-    item: null
+    item: null,
+    // Temporary personal token while building REMOVE WHEN COMPLETE
+    token: 'BQCoETiRZiQPBlag7eaU8jbTGVqQDrlnS6X1erKsHrL2A39Qln8ytLpgnrfpfebKBI8jDQpuayOI7Ki-iTw7FATuNAHSxtjWf77tmyft-1dynEE9NGChPpRVpkM4MfB4hfc--0ZaWx4lOrmAwYbM94ssnfyKqaA'
 }
 
 const reducer = (state, action) => {
@@ -14,6 +16,12 @@ const reducer = (state, action) => {
             return {
                 ...state,
                 user: action.user
+            }
+
+        case 'SET_TOKEN':
+            return {
+                ...state,
+                token: action.token
             }
         default:
             return state

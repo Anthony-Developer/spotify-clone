@@ -1,9 +1,14 @@
 import React from 'react'
+import '../Styling/Player.css'
 
-function Player() {
+function Player({spotify}) {
+
     return (
-        <div>
-            <h1>Player Component</h1>
+        <div className="player_div">
+            <div className="player_body">
+                <h1>Player Component</h1>
+            </div>
+            
         </div>
     )
 }
