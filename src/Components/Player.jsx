@@ -1,13 +1,19 @@
 import React from 'react'
+import Sidebar from './Sidebar'
+import Body from './Body'
+import Footer from './Footer'
 import '../Styling/Player.css'
 
 function Player({spotify}) {
 
     return (
-        <div className="player_div">
-            <div className="player_body">
-                <h1>Player Component</h1>
+        <div className="player-div">
+            <div className="player-body">
+                <Sidebar />
+                <Body />
             </div>
+
+            <Footer />
             
         </div>
     )
