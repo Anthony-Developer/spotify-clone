@@ -7,3 +7,9 @@
     background-color: #040404;
     color: white;
 }
+
+.sidebar-logo {
+    height: 70px;
+    padding: 10px;
+    margin-right: auto;
+}
