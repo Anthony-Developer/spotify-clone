@@ -1,7 +1,7 @@
 // Creating a default initial state
 export const initialState = {
     user: null,
-    playlist: [],
+    playlists: [],
     playing: false,
     item: null,
     // Temporary personal token while building REMOVE WHEN COMPLETE
@@ -24,6 +24,7 @@ const reducer = (state, action) => {
                 token: action.token
             }
 
+        // I keep getting an empty array from Spotify regarding my playlists... LOOK INTO THIS
         case 'SET_PLAYLISTS':
             return {
                 ...state,
