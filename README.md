@@ -5,7 +5,7 @@ A Spotify clone in React, after login the app will get all the data from Spotify
 
 <br>
 
-- Desktop Version
+- [Live Site](https://spotify-clone-3756f.web.app/)
 
 ![Desktop Demo](https://res.cloudinary.com/anthony-dev/image/upload/v1602348995/Screen_Shot_2020-10-10_at_12.55.33_PM_gtpdna.png)
 
