@@ -2,6 +2,7 @@ import React from 'react'
 import '../Styling/SidebarOptions.css'
 
 function SidebarOptions({title, Icon}) {
+    
     return (
         <div className="sidebar-options">
             {Icon && <Icon className="sidebar-options-icons" />}
